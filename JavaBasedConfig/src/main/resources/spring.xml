@@ -3,16 +3,16 @@
     xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-<!--	<bean id="alien1" class="com.telusko.Alien" scope="singleton">  -->
+<!--	<bean id="alien1" class="com.sagar.Alien" scope="singleton">  -->
 	
-<!--	<bean id="alien1" class="com.telusko.Alien" autowire="byName"> -->
-	<bean id="alien1" class="com.telusko.Alien" autowire="byType"> 
+<!--	<bean id="alien1" class="com.sagar.Alien" autowire="byName"> -->
+	<bean id="alien1" class="com.sagar.Alien" autowire="byType">
 	
 		<property name="age" value="21"/>		
  	<!--<property name="com" ref="com2"/>   -->    
 	 <property name="com" >
 	 <!-- Inner Bean -->
-	 <bean id="com1" class="com.telusko.Laptop" primary="true">
+	 <bean id="com1" class="com.sagar.Laptop" primary="true">
 	</bean> 
 	  </property>   
 
@@ -20,7 +20,7 @@
 <!--		<constructor-arg value="21"></constructor-arg>
 		<constructor-arg ref="lap1"></constructor-arg> -->
 		
-<!--		<constructor-arg type="com.telusko.Laptop" ref="lap1"/>
+<!--		<constructor-arg type="com.sagar.Laptop" ref="lap1"/>
 		<constructor-arg type="int" value="21"/> -->
 		
 <!--		<constructor-arg index="1" ref="lap1"/>
@@ -33,10 +33,10 @@
 	</bean>
 	
 
-	<!--  <bean id="com1" class="com.telusko.Laptop" primary="true">
+	<!--  <bean id="com1" class="com.sagar.Laptop" primary="true">
 	</bean>  -->
 	
-<!-- <bean class="com.telusko.Desktop" lazy-init="true"> </bean>-->	 
+<!-- <bean class="com.sagar.Desktop" lazy-init="true"> </bean>-->
 	 
 	
 </beans>

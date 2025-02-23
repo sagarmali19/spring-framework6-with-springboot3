@@ -1,4 +1,4 @@
-package com.telusko.Spring1;
+package com.sagar.Spring1;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

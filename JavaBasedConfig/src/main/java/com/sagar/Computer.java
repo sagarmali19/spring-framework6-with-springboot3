@@ -1,4 +1,4 @@
-package com.telusko;
+package com.sagar;
 
 public interface Computer {
 

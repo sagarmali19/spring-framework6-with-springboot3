@@ -1,9 +1,9 @@
-package com.telusko.config;
+package com.sagar.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.telusko.Desktop;
+import com.sagar.Desktop;
 
 @Configuration
 public class AppConfig {

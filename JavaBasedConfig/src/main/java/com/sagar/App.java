@@ -1,9 +1,9 @@
-package com.telusko;
+package com.sagar;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import com.telusko.config.AppConfig;
+import com.sagar.config.AppConfig;
 
 public class App {
 	public static void main(String[] args) {

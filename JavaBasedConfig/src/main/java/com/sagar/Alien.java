@@ -1,6 +1,4 @@
-package com.telusko;
-
-import java.beans.ConstructorProperties;
+package com.sagar;
 
 public class Alien {
 	
